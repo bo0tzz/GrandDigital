@@ -12,6 +12,7 @@ repositories {
 
 dependencies {
     implementation("org.mariadb.jdbc", "mariadb-java-client", "2.4.0")
+    implementation("com.google.code.gson", "gson", "2.8.5")
 
     testCompile("junit", "junit", "4.12")
 }
